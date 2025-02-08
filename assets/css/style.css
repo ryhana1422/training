@@ -54,7 +54,8 @@ nav .left-nav {
 nav .left-nav span {
     font-size: 20px;
     font-weight: 900;
-    color: #22927E;
+    /* color: #22927E; */
+    color: #000;
     letter-spacing: 0.5px;
 }
 
