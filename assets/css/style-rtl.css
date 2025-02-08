@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Rubik/Rubik-Regular.ttf);
+}
+
+nav .center-nav li a,
+nav .right-nav button,
+main .pricing .pricing-content .card button,
+main .contact form input,
+main,
+main .contact form button,
+footer {
+    font-family: Rubik;
+}
+
+main .home .left-home p,
+main .about .items .item p {
+    padding-right: 40px;
+    padding-left: initial;
+}
+
+main .pricing .pricing-content .card .circles {
+    left: 2px;
+    right: initial;
+}
+
+@keyframes pink-circle {
+    0% {
+        transform: translate(0px, 0px) scale(0.6);
+    }
+
+    25% {
+        transform: translate(-61px, 0px) scale(0.8);
+    }
+
+    50% {
+        transform: translate(-61px, 61px) scale(0.6);
+    }
+
+    75% {
+        transform: translate(0px, 61px) scale(0.8);
+    }
+
+    100% {
+        transform: translate(0px, 0px) scale(0.6);
+    }
+}
+
+@keyframes circle2 {
+    0% {
+        transform: translate(0px, 0px) scale(0.6);
+    }
+
+    25% {
+        transform: translate(0px, -61px) scale(0.8);
+    }
+
+    50% {
+        transform: translate(-61px, -61px) scale(0.6);
+    }
+
+    75% {
+        transform: translate(-61px, 0px) scale(0.8);
+    }
+
+    100% {
+        transform: translate(0px, 0px) scale(0.6);
+    }
+}
+
+@keyframes circle1 {
+    0% {
+        transform: translate(0px, 0px) scale(0.6);
+    }
+
+    25% {
+        transform: translate(0px, 61px) scale(0.8);
+    }
+
+    50% {
+        transform: translate(61px, 61px) scale(0.6);
+    }
+
+    75% {
+        transform: translate(61px, 0px) scale(.8);
+    }
+
+    100% {
+        transform: translate(0px, 0px) scale(0.6);
+    }
+}
+
+@keyframes circle3 {
+    0% {
+        transform: translate(0px, 0px) scale(0.6);
+    }
+
+    25% {
+        transform: translate(61px, 0px) scale(0.8);
+    }
+
+    50% {
+        transform: translate(61px, -61px) scale(0.6);
+    }
+
+    75% {
+        transform: translate(0px, -61px) scale(0.8);
+    }
+
+    100% {
+        transform: translate(0px, 0px) scale(0.6);
+    }
+}
+
+@media screen and (max-width: 840px) {
+    @keyframes pink-circle {
+        0% {
+            transform: translate(0px, 0px) scale(0.6);
+        }
+
+        25% {
+            transform: translate(-51px, 0px) scale(0.8);
+        }
+
+        50% {
+            transform: translate(-51px, 51px) scale(0.6);
+        }
+
+        75% {
+            transform: translate(0px, 51px) scale(0.8);
+        }
+
+        100% {
+            transform: translate(0px, 0px) scale(0.6);
+        }
+    }
+
+    @keyframes circle1 {
+        0% {
+            transform: translate(0px, 0px) scale(0.6);
+        }
+
+        25% {
+            transform: translate(0px, 51px) scale(0.8);
+        }
+
+        50% {
+            transform: translate(51px, 51px) scale(0.6);
+        }
+
+        75% {
+            transform: translate(51px, 0px) scale(.8);
+        }
+
+        100% {
+            transform: translate(0px, 0px) scale(0.6);
+        }
+    }
+
+    @keyframes circle2 {
+        0% {
+            transform: translate(0px, 0px) scale(0.6);
+        }
+
+        25% {
+            transform: translate(0px, -51px) scale(0.8);
+        }
+
+        50% {
+            transform: translate(-51px, -51px) scale(0.6);
+        }
+
+        75% {
+            transform: translate(-51px, 0px) scale(0.8);
+        }
+
+        100% {
+            transform: translate(0px, 0px) scale(0.6);
+        }
+    }
+
+    @keyframes circle3 {
+        0% {
+            transform: translate(0px, 0px) scale(0.6);
+        }
+
+        25% {
+            transform: translate(51px, 0px) scale(0.8);
+        }
+
+        50% {
+            transform: translate(51px, -51px) scale(0.6);
+        }
+
+        75% {
+            transform: translate(0px, -51px) scale(0.8);
+        }
+
+        100% {
+            transform: translate(0px, 0px) scale(0.6);
+        }
+    }
+}
